@@ -2,11 +2,24 @@
   "name": "npm-commonjs-tutorial",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JLOPEZMORENO/npm-tutorial-ts.git"
+  },
+  "keywords": [
+    "console log colors",
+    "tutorial npm"
+  ],
+  "author": "Juan Lopez Moreno",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.2"
+  },
+  "files": ["dist/**/*"]
+
 }
